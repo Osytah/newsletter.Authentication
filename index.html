@@ -5,31 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Product preview card component</title>
 
   <link rel="stylesheet" href="./styles/output.css">
 </head>
 
-<body class="flex justify-center content-center pt-20 bg-[#f2ebe3] h-screen">
+<body class="flex justify-center content-center bg-[#f2ebe3] h-screen">
 
-<div class="flex justify-center item-center h-5/6 w-3/5">
+<div class="grid grid-cols-2 justify-center item-center h-3/4 w-3/6">
 
 <img src="./images/image-product-desktop.jpg" alt="customer product-card" class="h-full">
 
 <div class="bg-[#ffffff]">
-  <form class="mx-12 my-12">
-  <h1 class="uppercase tracking-wide">P e r f u m e</h1>
-  <h2 class="text-3xl font-bold text-[#1c232b] pt-5 pr-8">Gabrielle Essence Eau De Parfum</h2>
+  <form class="mx-9 my-9">
+  <h1 class="uppercase tracking-wide font-mono font-medium">P e r f u m e</h1>
+  <h2 class="text-3xl font-bold text-[#1c232b] pt-5 pr-8 font-sans">Gabrielle Essence Eau De Parfum</h2>
 
-  <p class="pt-5">
+  <p class="pt-5 font-sans font-medium text-[#6c7289]">
     A floral, solar and voluptuous interpretation composed by Olivier Polge, 
     Perfumer-Creator for the House of CHANEL.
   </p>
 
-<div class="text-3xl font-bold pt-5">$149.99</div><br>
+<div class="text-3xl text-[#3c8067] font-bold pt-5 font-sans">$149.99</div><br>
 
-<input type="submit" value="Add to Cart" class="pt-5">
+<input type="submit" value="Add to Cart" class="px-4 py-3 pt-5 w-full rounded-md  bg-[#3c8067] text-[#ffffff] items-center font-sans font-medium">
 </form>
 
 </div>
